@@ -1,0 +1,21 @@
+{
+  "name": "api-node-sqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prisma": "^5.16.1",
+    "sucrase": "^3.35.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
